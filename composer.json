@@ -1,5 +1,5 @@
 {
-    "name": "desarrolla2/rss-client",
+    "name": "newwaveweb/rss-client",
     "description": "A simple to use RSS client library.",
     "keywords": ["rss", "rss20", "feed", "feed parser", "atom10"],
     "type": "library",
@@ -11,7 +11,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/desarrolla2/RSSClient/issues"
+        "issues": "https://github.com/newwaveweb/RSSClient/issues"
     },
     "require": {
         "php": ">=5.3.0",
@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Desarrolla2\\RSSClient\\": "src/"
+            "NewWaveWeb\\RSSClient\\": "src/"
         }
     },
     "minimum-stability": "dev"
