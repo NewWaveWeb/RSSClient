@@ -30,6 +30,11 @@ abstract class Node implements NodeInterface
     /**
      * @var string
      */
+    protected $marketing_title = null;
+    
+    /**
+     * @var string
+     */
     protected $link = null;
 
     /**
@@ -95,6 +100,24 @@ abstract class Node implements NodeInterface
         $this->title = $title;
     }
 
+    /**
+     * @return null|string
+     */
+    public function getmarketing_title()
+    {
+        return $this->marketing_title;
+    }
+
+    /**
+     * @param $title
+     *
+     * @return mixed|void
+     */
+    public function setmarketing_title($title)
+    {
+        $this->marketing_title = $title;
+    }
+    
     /**
      * @return null|string
      */
