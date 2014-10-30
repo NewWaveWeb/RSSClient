@@ -49,6 +49,7 @@ class RSS20NodeFactory extends AbstractNodeFactory
     {
         $properties = array(
             'title',
+            'marketing_title',
             'description',
             'author',
             'comments',
